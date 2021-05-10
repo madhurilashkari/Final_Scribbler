@@ -15,7 +15,7 @@
 </head>
 
 <body style=" background-color: white;"  >
-    
+    <!--Code for heading-->
     <header>
         <div class="top-container">
             <div>
@@ -28,6 +28,7 @@
             </div>
         </div>
     </header>
+    <!--Code for edit button-->
     <div class="post-container container py-3 mt-3">
         <div class="heading-content" id="edit-heading" contenteditable="true"></div>
         <div class="author">
@@ -38,12 +39,15 @@
             </div>
         </div>
 
-
+        <!--Code for allowing user to edit the post content-->
         <div class="post-content" id="edit-contenttext" contenteditable="true">
         </div>
-
-        <button id="like-button" type="button" class="btn btn-danger" onclick="countLikes()"><i
-                class="fa fa-thumbs-up"></i><span id="likeButton">Like</span></button>
+        <!--Code for Like button with thumbs up icon-->
+        <button id="like-button" type="button" class="btn btn-danger" onclick="countLikes()">
+            <i class="fa fa-thumbs-up"></i>
+                <span id="likeButton">Like</span>
+            </button>
+         <!--Code to show count-->   
         <div id="showCount">Be the first one to like this</div>
 
         <textarea id="comment" rows="4" cols="135" placeholder="Leave a comment..." name="comment"></textarea>
