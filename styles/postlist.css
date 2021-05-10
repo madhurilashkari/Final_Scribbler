@@ -36,13 +36,13 @@ i {
     overflow: hidden;
 }
 
-.modal-dialog .confirm-btn {
+.confirm-modal .confirm-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.modal-dialog {
+.confirm-modal {
     max-width: 345px !important;
 }
 .trash-button{
