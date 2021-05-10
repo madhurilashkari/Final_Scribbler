@@ -1,0 +1,63 @@
+body {
+    background-color: #ffeedd !important; 
+}
+
+.postowner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-wrapper {
+    border-radius: 25px !important;
+}
+
+.card-title {
+    color: grey;
+}
+
+.card {
+    overflow: hidden !important;
+}
+
+.card-body {
+    background-color: #e9ecef;
+}
+
+i {
+    float: right;
+}
+
+.postdetail {
+    line-height: 18px;
+    max-height: 54px; /* line-height * 3 */
+    overflow: hidden;
+}
+
+.modal-dialog .confirm-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-dialog {
+    max-width: 345px !important;
+}
+.trash-button{
+    float: right;
+    padding-right: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+
+.ellipsis{
+   margin-left: 370px;
+   color: grey;
+    cursor: pointer;
+    padding-right: 120px;
+    margin-bottom: 4px; 
+ 
+  
+}
